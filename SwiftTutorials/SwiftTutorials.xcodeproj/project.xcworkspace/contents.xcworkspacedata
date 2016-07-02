@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SkyDocPreps.xcodeproj">
+      location = "self:SwiftTutorials.xcodeproj">
    </FileRef>
 </Workspace>

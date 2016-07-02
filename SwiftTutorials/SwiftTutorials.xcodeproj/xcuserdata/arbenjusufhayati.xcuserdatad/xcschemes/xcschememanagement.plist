@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SkyDocPreps.xcscheme</key>
+		<key>SwiftTutorials.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DE2338701CF1C09A00BF908A</key>
+		<key>DE60FAF61D2867BA006622BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DE2338871CF1C09A00BF908A</key>
+		<key>DE60FB0D1D2867BA006622BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DE2338921CF1C09A00BF908A</key>
+		<key>DE60FB181D2867BB006622BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

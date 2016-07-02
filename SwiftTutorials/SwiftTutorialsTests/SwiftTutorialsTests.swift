@@ -1,15 +1,15 @@
 //
-//  SkyDocPrepsTests.swift
-//  SkyDocPrepsTests
+//  SwiftTutorialsTests.swift
+//  SwiftTutorialsTests
 //
-//  Created by arbenjusufhayati on 5/22/16.
+//  Created by arbenjusufhayati on 7/2/16.
 //  Copyright © 2016 Versus UE. All rights reserved.
 //
 
 import XCTest
-@testable import SkyDocPreps
+@testable import SwiftTutorials
 
-class SkyDocPrepsTests: XCTestCase {
+class SwiftTutorialsTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

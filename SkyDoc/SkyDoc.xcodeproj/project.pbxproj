@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2912C380C8890E77237435B7 /* Pods_SkyDocTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F249C78E9AD2D76752667F /* Pods_SkyDocTests.framework */; };
+		640CBABC9FA41FF9E83946BD /* Pods_SkyDoc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE5687D067C2D8BE1BAFAD7 /* Pods_SkyDoc.framework */; };
+		DEC1901C1CF20F5400604984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC1901B1CF20F5400604984 /* AppDelegate.swift */; };
+		DEC1901E1CF20F5400604984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC1901D1CF20F5400604984 /* ViewController.swift */; };
+		DEC190211CF20F5400604984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC1901F1CF20F5400604984 /* Main.storyboard */; };
+		DEC190241CF20F5400604984 /* SkyDoc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEC190221CF20F5400604984 /* SkyDoc.xcdatamodeld */; };
+		DEC190261CF20F5400604984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEC190251CF20F5400604984 /* Assets.xcassets */; };
+		DEC190291CF20F5400604984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC190271CF20F5400604984 /* LaunchScreen.storyboard */; };
+		DEC190341CF20F5500604984 /* SkyDocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC190331CF20F5500604984 /* SkyDocTests.swift */; };
+		DEC1903F1CF20F5500604984 /* SkyDocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC1903E1CF20F5500604984 /* SkyDocUITests.swift */; };
+		DEFD1B531CF220B20065FE1B /* SkyDocService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD1B521CF220B20065FE1B /* SkyDocService.swift */; };
+		EE2B349ABDC7A5FBE3158FDE /* Pods_SkyDocUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A14F3CE56B13447A77826E4 /* Pods_SkyDocUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEC190301CF20F5500604984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEC190101CF20F5400604984 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEC190171CF20F5400604984;
+			remoteInfo = SkyDoc;
+		};
+		DEC1903B1CF20F5500604984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEC190101CF20F5400604984 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEC190171CF20F5400604984;
+			remoteInfo = SkyDoc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20620E126FD9608FBBE1119D /* Pods-SkyDocUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyDocUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyDocUITests/Pods-SkyDocUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		53BD1667C913A97AB58D123D /* Pods-SkyDocUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyDocUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyDocUITests/Pods-SkyDocUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A14F3CE56B13447A77826E4 /* Pods_SkyDocUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyDocUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F249C78E9AD2D76752667F /* Pods_SkyDocTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyDocTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A24A8A4A1FC4B35B6DAFB6A /* Pods-SkyDoc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyDoc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyDoc/Pods-SkyDoc.debug.xcconfig"; sourceTree = "<group>"; };
+		9DB5857AB42107A8C5B2E76A /* Pods-SkyDoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyDoc.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyDoc/Pods-SkyDoc.release.xcconfig"; sourceTree = "<group>"; };
+		AFE5687D067C2D8BE1BAFAD7 /* Pods_SkyDoc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyDoc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC190181CF20F5400604984 /* SkyDoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyDoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC1901B1CF20F5400604984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEC1901D1CF20F5400604984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEC190201CF20F5400604984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEC190231CF20F5400604984 /* SkyDoc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SkyDoc.xcdatamodel; sourceTree = "<group>"; };
+		DEC190251CF20F5400604984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEC190281CF20F5400604984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEC1902A1CF20F5400604984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC1902F1CF20F5500604984 /* SkyDocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyDocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC190331CF20F5500604984 /* SkyDocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyDocTests.swift; sourceTree = "<group>"; };
+		DEC190351CF20F5500604984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC1903A1CF20F5500604984 /* SkyDocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyDocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC1903E1CF20F5500604984 /* SkyDocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyDocUITests.swift; sourceTree = "<group>"; };
+		DEC190401CF20F5500604984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEFD1B521CF220B20065FE1B /* SkyDocService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyDocService.swift; sourceTree = "<group>"; };
+		EC04B27FD5A7654C6DCB92A0 /* Pods-SkyDocTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyDocTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkyDocTests/Pods-SkyDocTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F221C08CD5165B24FD07EB41 /* Pods-SkyDocTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyDocTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkyDocTests/Pods-SkyDocTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEC190151CF20F5400604984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640CBABC9FA41FF9E83946BD /* Pods_SkyDoc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC1902C1CF20F5500604984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2912C380C8890E77237435B7 /* Pods_SkyDocTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC190371CF20F5500604984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2B349ABDC7A5FBE3158FDE /* Pods_SkyDocUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0952E7A9C60FAFB03C3831E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFE5687D067C2D8BE1BAFAD7 /* Pods_SkyDoc.framework */,
+				61F249C78E9AD2D76752667F /* Pods_SkyDocTests.framework */,
+				5A14F3CE56B13447A77826E4 /* Pods_SkyDocUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3294640E79AC962DA02630B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A24A8A4A1FC4B35B6DAFB6A /* Pods-SkyDoc.debug.xcconfig */,
+				9DB5857AB42107A8C5B2E76A /* Pods-SkyDoc.release.xcconfig */,
+				EC04B27FD5A7654C6DCB92A0 /* Pods-SkyDocTests.debug.xcconfig */,
+				F221C08CD5165B24FD07EB41 /* Pods-SkyDocTests.release.xcconfig */,
+				20620E126FD9608FBBE1119D /* Pods-SkyDocUITests.debug.xcconfig */,
+				53BD1667C913A97AB58D123D /* Pods-SkyDocUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEC1900F1CF20F5400604984 = {
+			isa = PBXGroup;
+			children = (
+				DEC1901A1CF20F5400604984 /* SkyDoc */,
+				DEC190321CF20F5500604984 /* SkyDocTests */,
+				DEC1903D1CF20F5500604984 /* SkyDocUITests */,
+				DEC190191CF20F5400604984 /* Products */,
+				3294640E79AC962DA02630B5 /* Pods */,
+				0952E7A9C60FAFB03C3831E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DEC190191CF20F5400604984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEC190181CF20F5400604984 /* SkyDoc.app */,
+				DEC1902F1CF20F5500604984 /* SkyDocTests.xctest */,
+				DEC1903A1CF20F5500604984 /* SkyDocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEC1901A1CF20F5400604984 /* SkyDoc */ = {
+			isa = PBXGroup;
+			children = (
+				DEFD1B511CF220930065FE1B /* Services */,
+				DEC1901B1CF20F5400604984 /* AppDelegate.swift */,
+				DEC1901D1CF20F5400604984 /* ViewController.swift */,
+				DEC1901F1CF20F5400604984 /* Main.storyboard */,
+				DEC190251CF20F5400604984 /* Assets.xcassets */,
+				DEC190271CF20F5400604984 /* LaunchScreen.storyboard */,
+				DEC1902A1CF20F5400604984 /* Info.plist */,
+				DEC190221CF20F5400604984 /* SkyDoc.xcdatamodeld */,
+			);
+			path = SkyDoc;
+			sourceTree = "<group>";
+		};
+		DEC190321CF20F5500604984 /* SkyDocTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEC190331CF20F5500604984 /* SkyDocTests.swift */,
+				DEC190351CF20F5500604984 /* Info.plist */,
+			);
+			path = SkyDocTests;
+			sourceTree = "<group>";
+		};
+		DEC1903D1CF20F5500604984 /* SkyDocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEC1903E1CF20F5500604984 /* SkyDocUITests.swift */,
+				DEC190401CF20F5500604984 /* Info.plist */,
+			);
+			path = SkyDocUITests;
+			sourceTree = "<group>";
+		};
+		DEFD1B511CF220930065FE1B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DEFD1B521CF220B20065FE1B /* SkyDocService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEC190171CF20F5400604984 /* SkyDoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC190431CF20F5500604984 /* Build configuration list for PBXNativeTarget "SkyDoc" */;
+			buildPhases = (
+				781067B98ADD954ABD8ACE10 /* 📦 Check Pods Manifest.lock */,
+				DEC190141CF20F5400604984 /* Sources */,
+				DEC190151CF20F5400604984 /* Frameworks */,
+				DEC190161CF20F5400604984 /* Resources */,
+				2628B5A0F4867DB4226DD365 /* 📦 Embed Pods Frameworks */,
+				073EACFD5ED042EA1AD7746A /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyDoc;
+			productName = SkyDoc;
+			productReference = DEC190181CF20F5400604984 /* SkyDoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEC1902E1CF20F5500604984 /* SkyDocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC190461CF20F5500604984 /* Build configuration list for PBXNativeTarget "SkyDocTests" */;
+			buildPhases = (
+				5AF4F7886A2D11288A5BC250 /* 📦 Check Pods Manifest.lock */,
+				DEC1902B1CF20F5500604984 /* Sources */,
+				DEC1902C1CF20F5500604984 /* Frameworks */,
+				DEC1902D1CF20F5500604984 /* Resources */,
+				4C952E18A52CC12A51398E38 /* 📦 Embed Pods Frameworks */,
+				67A31FEDCE77049120358129 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEC190311CF20F5500604984 /* PBXTargetDependency */,
+			);
+			name = SkyDocTests;
+			productName = SkyDocTests;
+			productReference = DEC1902F1CF20F5500604984 /* SkyDocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEC190391CF20F5500604984 /* SkyDocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC190491CF20F5500604984 /* Build configuration list for PBXNativeTarget "SkyDocUITests" */;
+			buildPhases = (
+				FB7F9BC20D9CA3ED9A24B8EF /* 📦 Check Pods Manifest.lock */,
+				DEC190361CF20F5500604984 /* Sources */,
+				DEC190371CF20F5500604984 /* Frameworks */,
+				DEC190381CF20F5500604984 /* Resources */,
+				5E6DDD12C098E5ADE48217E2 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEC1903C1CF20F5500604984 /* PBXTargetDependency */,
+			);
+			name = SkyDocUITests;
+			productName = SkyDocUITests;
+			productReference = DEC1903A1CF20F5500604984 /* SkyDocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEC190101CF20F5400604984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Versus UE";
+				TargetAttributes = {
+					DEC190171CF20F5400604984 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DEC1902E1CF20F5500604984 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DEC190171CF20F5400604984;
+					};
+					DEC190391CF20F5500604984 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DEC190171CF20F5400604984;
+					};
+				};
+			};
+			buildConfigurationList = DEC190131CF20F5400604984 /* Build configuration list for PBXProject "SkyDoc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEC1900F1CF20F5400604984;
+			productRefGroup = DEC190191CF20F5400604984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEC190171CF20F5400604984 /* SkyDoc */,
+				DEC1902E1CF20F5500604984 /* SkyDocTests */,
+				DEC190391CF20F5500604984 /* SkyDocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEC190161CF20F5400604984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC190291CF20F5400604984 /* LaunchScreen.storyboard in Resources */,
+				DEC190261CF20F5400604984 /* Assets.xcassets in Resources */,
+				DEC190211CF20F5400604984 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC1902D1CF20F5500604984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC190381CF20F5500604984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		073EACFD5ED042EA1AD7746A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyDoc/Pods-SkyDoc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2628B5A0F4867DB4226DD365 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyDoc/Pods-SkyDoc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C952E18A52CC12A51398E38 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyDocTests/Pods-SkyDocTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AF4F7886A2D11288A5BC250 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E6DDD12C098E5ADE48217E2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyDocUITests/Pods-SkyDocUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67A31FEDCE77049120358129 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkyDocTests/Pods-SkyDocTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		781067B98ADD954ABD8ACE10 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB7F9BC20D9CA3ED9A24B8EF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEC190141CF20F5400604984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFD1B531CF220B20065FE1B /* SkyDocService.swift in Sources */,
+				DEC190241CF20F5400604984 /* SkyDoc.xcdatamodeld in Sources */,
+				DEC1901E1CF20F5400604984 /* ViewController.swift in Sources */,
+				DEC1901C1CF20F5400604984 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC1902B1CF20F5500604984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC190341CF20F5500604984 /* SkyDocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC190361CF20F5500604984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC1903F1CF20F5500604984 /* SkyDocUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEC190311CF20F5500604984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEC190171CF20F5400604984 /* SkyDoc */;
+			targetProxy = DEC190301CF20F5500604984 /* PBXContainerItemProxy */;
+		};
+		DEC1903C1CF20F5500604984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEC190171CF20F5400604984 /* SkyDoc */;
+			targetProxy = DEC1903B1CF20F5500604984 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEC1901F1CF20F5400604984 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEC190201CF20F5400604984 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEC190271CF20F5400604984 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEC190281CF20F5400604984 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEC190411CF20F5500604984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEC190421CF20F5500604984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEC190441CF20F5500604984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A24A8A4A1FC4B35B6DAFB6A /* Pods-SkyDoc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkyDoc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Versus.SkyDoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEC190451CF20F5500604984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DB5857AB42107A8C5B2E76A /* Pods-SkyDoc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkyDoc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Versus.SkyDoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEC190471CF20F5500604984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC04B27FD5A7654C6DCB92A0 /* Pods-SkyDocTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkyDocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Versus.SkyDocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyDoc.app/SkyDoc";
+			};
+			name = Debug;
+		};
+		DEC190481CF20F5500604984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F221C08CD5165B24FD07EB41 /* Pods-SkyDocTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkyDocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Versus.SkyDocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyDoc.app/SkyDoc";
+			};
+			name = Release;
+		};
+		DEC1904A1CF20F5500604984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20620E126FD9608FBBE1119D /* Pods-SkyDocUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SkyDocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Versus.SkyDocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkyDoc;
+			};
+			name = Debug;
+		};
+		DEC1904B1CF20F5500604984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53BD1667C913A97AB58D123D /* Pods-SkyDocUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SkyDocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Versus.SkyDocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkyDoc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEC190131CF20F5400604984 /* Build configuration list for PBXProject "SkyDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC190411CF20F5500604984 /* Debug */,
+				DEC190421CF20F5500604984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC190431CF20F5500604984 /* Build configuration list for PBXNativeTarget "SkyDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC190441CF20F5500604984 /* Debug */,
+				DEC190451CF20F5500604984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC190461CF20F5500604984 /* Build configuration list for PBXNativeTarget "SkyDocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC190471CF20F5500604984 /* Debug */,
+				DEC190481CF20F5500604984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC190491CF20F5500604984 /* Build configuration list for PBXNativeTarget "SkyDocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC1904A1CF20F5500604984 /* Debug */,
+				DEC1904B1CF20F5500604984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DEC190221CF20F5400604984 /* SkyDoc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DEC190231CF20F5400604984 /* SkyDoc.xcdatamodel */,
+			);
+			currentVersion = DEC190231CF20F5400604984 /* SkyDoc.xcdatamodel */;
+			path = SkyDoc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DEC190101CF20F5400604984 /* Project object */;
+}
