@@ -108,7 +108,7 @@
 				DE60FB061D2867BA006622BE /* LaunchScreen.storyboard */,
 				DE60FB091D2867BA006622BE /* Info.plist */,
 				DE60FB011D2867BA006622BE /* SwiftTutorials.xcdatamodeld */,
-				DE60FB2D1D287365006622BE /* ChatApi.swift */,
+				DE60FB301D2876A0006622BE /* Singleton */,
 			);
 			path = SwiftTutorials;
 			sourceTree = "<group>";
@@ -129,6 +129,14 @@
 				DE60FB1F1D2867BB006622BE /* Info.plist */,
 			);
 			path = SwiftTutorialsUITests;
+			sourceTree = "<group>";
+		};
+		DE60FB301D2876A0006622BE /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				DE60FB2D1D287365006622BE /* ChatApi.swift */,
+			);
+			name = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -490,6 +498,7 @@
 				DE60FB241D2867BB006622BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE60FB251D2867BB006622BE /* Build configuration list for PBXNativeTarget "SwiftTutorialsTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				DE60FB271D2867BB006622BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE60FB281D2867BB006622BE /* Build configuration list for PBXNativeTarget "SwiftTutorialsUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +516,7 @@
 				DE60FB2A1D2867BB006622BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
