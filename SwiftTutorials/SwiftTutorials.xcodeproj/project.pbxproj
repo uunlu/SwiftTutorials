@@ -15,6 +15,7 @@
 		DE60FB081D2867BA006622BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE60FB061D2867BA006622BE /* LaunchScreen.storyboard */; };
 		DE60FB131D2867BA006622BE /* SwiftTutorialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE60FB121D2867BA006622BE /* SwiftTutorialsTests.swift */; };
 		DE60FB1E1D2867BB006622BE /* SwiftTutorialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE60FB1D1D2867BB006622BE /* SwiftTutorialsUITests.swift */; };
+		DE60FB2E1D287365006622BE /* ChatApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE60FB2D1D287365006622BE /* ChatApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DE60FB191D2867BB006622BE /* SwiftTutorialsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTutorialsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE60FB1D1D2867BB006622BE /* SwiftTutorialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorialsUITests.swift; sourceTree = "<group>"; };
 		DE60FB1F1D2867BB006622BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE60FB2D1D287365006622BE /* ChatApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				DE60FB061D2867BA006622BE /* LaunchScreen.storyboard */,
 				DE60FB091D2867BA006622BE /* Info.plist */,
 				DE60FB011D2867BA006622BE /* SwiftTutorials.xcdatamodeld */,
+				DE60FB2D1D287365006622BE /* ChatApi.swift */,
 			);
 			path = SwiftTutorials;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				DE60FAFD1D2867BA006622BE /* ViewController.swift in Sources */,
 				DE60FAFB1D2867BA006622BE /* AppDelegate.swift in Sources */,
+				DE60FB2E1D287365006622BE /* ChatApi.swift in Sources */,
 				DE60FB031D2867BA006622BE /* SwiftTutorials.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
