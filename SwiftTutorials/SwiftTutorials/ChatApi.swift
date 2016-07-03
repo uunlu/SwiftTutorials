@@ -8,10 +8,14 @@
 
 import UIKit
 
-// singleton 1
+
 class ChatApi {
 
-    class var sharedInsance: ChatApi {
+    // singleton Swift 2.0
+    static let sharedInstanceSwift2 = ChatApi()
+    
+    // singleton Swift 1.2
+    class var sharedInstance: ChatApi {
         // singleton wraps static property
         struct Singleton {
             static let instance = ChatApi()
