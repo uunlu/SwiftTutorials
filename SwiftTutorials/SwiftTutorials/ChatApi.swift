@@ -23,5 +23,19 @@ class ChatApi {
         
         return Singleton.instance
     }
+    
+    // singleton Objective-C way
+    class var sharedInstanceObjC : ChatApi{
+        struct  Static {
+            static var onceToken : dispatch_once_t = 0
+            static var instance : ChatApi? = nil
+        }
+        
+        dispatch_once(&Static.onceToken){
+            Static.instance = ChatApi()
+        }
+        
+        return Static.instance!
+    }
 
 }
